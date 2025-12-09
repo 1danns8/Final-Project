@@ -3,97 +3,85 @@
   <head> 
     <title> Virtual Reality In Eduacation </title> 
     <style>
-     body {
-  font-family: Arial, sans-serif;
-  font-size: 28px;
-  line-height: 1.7;
+     /* General body */
+body {
+  font-family: 'Poppins', Arial, sans-serif; /* main font */
+  font-size: 18px;      /* base font size for paragraphs */
+  line-height: 1.8;
+  color: #1a1a1a;
   margin: 40px;
-
   background: linear-gradient(to bottom right, #f3e8ff, #ede9fe, #e9d5ff);
-  color: #1a1a1a; 
 }
 
-/* Headers */
+/* Headings */
 h1 {
   text-align: center;
-  background:#a78bfa; /* Soft VR purple */
-  color:white;
-  padding:15px;
-  border-radius:10px;
+  font-size: 40px;
+  font-weight: 700;
+  background: #a78bfa; /* Soft VR purple */
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
 }
 
 h2 {
+  font-size: 28px;
   margin-top: 40px;
-  background:#c4b5fd;
-  padding:10px;
-  border-radius:6px;
-  color:#1a1a1a;
+  background: #c4b5fd;
+  padding: 10px;
+  border-radius: 6px;
+  color: #1a1a1a;
+  text-align: left;
 }
 
 h3 {
+  font-size: 22px;
   margin-top: 25px;
-  color:#5b21b6;
+  color: #5b21b6;
 }
 
+/* Paragraphs and list items */
 p, li {
-  margin-bottom: 15px;
-  color:#1a1a1a;
-}
-
-img {
-  display:block;
-  margin: 20px auto;
-  border-radius:10px;
-  max-width:100%;
-}
-
-/* Only paragraphs inside boxes get indented */
-.box p {
-  padding-left: 30px;    /* moves paragraphs slightly right */
-  margin-bottom: 15px;
-  font-size: 18px;       /* easier to read */
+  font-size: 18px;      /* same as body for consistency */
   line-height: 1.8;
   color: #1a1a1a;
+  margin-bottom: 15px;
+  padding-left: 30px;   /* optional indent for paragraphs */
 }
 
-/* Headings inside boxes stay aligned */
-.box h1, 
-.box h2, 
-.box h3 {
-  padding-left: 0;       /* no indent for headings */
-  margin-top: 20px;
-  margin-bottom: 10px;
+/* Images */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+/* Box styling for Ethical Analysis or similar */
+.box {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 20px;
+}
+
+/* Headings inside boxes */
+.box h1, .box h2, .box h3 {
+  padding-left: 0;       /* headings stay flush left */
+  font-family: 'Poppins', Arial, sans-serif;
   font-weight: 600;
   color: #3a2a5f;
   border-bottom: 2px solid rgba(0,0,0,0.1);
   padding-bottom: 6px;
-}
-
-  /* Paragraphs inside boxes or main content get indented */
-p {
-  padding-left: 30px;   /* moves the paragraph slightly to the right */
-  margin-bottom: 20px;  /* keeps spacing between paragraphs */
-  font-size: 18px;      /* larger for readability */
-  line-height: 1.8;     /* more spacing for easy reading */
-  color: #1a1a1a;
-}
-
-/* Headings stay flush left */
-h1, h2, h3 {
-  padding-left: 0;       /* no indent for headings */
   margin-top: 20px;
   margin-bottom: 10px;
-  font-weight: 600;
-  color: #3a2a5f;
 }
 
-body {
-  font-family: 'Poppins', Arial, sans-serif; /* general page font */
-  line-height: 1.8;
-  color: #1a1a1a;
-  margin: 40px;
-  background: linear-gradient(to bottom right, #f3e8ff, #ede9fe, #e9d5ff);
+/* Lists inside boxes */
+.box ul, .box ol {
+  padding-left: 40px;    /* indents bullet points */
 }
+
 
 
    
